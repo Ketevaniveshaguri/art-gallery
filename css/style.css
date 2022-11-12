@@ -1,0 +1,308 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  max-width: 144rem;
+  font-weight: 500;
+  line-height: 1.6;
+  overflow-x: hidden; }
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin-inline: auto; }
+
+.hero {
+  margin-bottom: 12rem;
+  position: relative;
+  display: flex; }
+  @media only screen and (max-width: 600px) {
+    .hero {
+      flex-direction: column; } }
+  .hero__black {
+    height: 80rem;
+    width: 45rem;
+    background: #151515; }
+  .hero__header {
+    font-family: "Big Shoulders Display";
+    font-weight: 900;
+    font-size: 9.6rem;
+    text-transform: uppercase;
+    max-width: 30rem;
+    max-height: 30rem;
+    top: 23.9rem;
+    left: 16.5rem;
+    margin: 0;
+    transform: translate(-0.3%, -38%);
+    position: absolute;
+    color: white;
+    white-space: nowrap;
+    mix-blend-mode: difference;
+    display: flex;
+    flex-direction: column; }
+    @media only screen and (max-width: 1100px) {
+      .hero__header {
+        font-size: 7rem;
+        line-height: 1.9;
+        color: black;
+        left: 45rem;
+        white-space: nowrap;
+        mix-blend-mode: normal;
+        top: calc(50% - 130px / 2 - 140px); } }
+    @media only screen and (max-width: 800px) {
+      .hero__header {
+        font-size: 6rem;
+        line-height: 2.2;
+        color: black;
+        left: 39rem;
+        white-space: nowrap;
+        mix-blend-mode: normal;
+        top: calc(50% - 130px / 2 - 140px); } }
+    @media only screen and (max-width: 600px) {
+      .hero__header {
+        left: 2rem;
+        top: calc(50% - 110px / 2 + 12px); } }
+  .hero__art {
+    margin-top: -7rem; }
+  .hero__paragraph {
+    font-family: "outfit";
+    font-weight: 300;
+    font-size: 21px;
+    max-width: 35rem;
+    height: 16rem;
+    position: absolute;
+    left: 92.5rem;
+    top: 18rem; }
+    @media only screen and (max-width: 1100px) {
+      .hero__paragraph {
+        font-size: 1.8rem;
+        width: 33.9rem;
+        height: 11.2rem;
+        position: absolute;
+        top: calc(50% - 112px / 2 - 25px);
+        left: 45rem; } }
+    @media only screen and (max-width: 800px) {
+      .hero__paragraph {
+        font-size: 1.8rem;
+        width: 33.9rem;
+        height: 11.2rem;
+        position: absolute;
+        top: calc(50% - 112px / 2 + 29px);
+        left: 38.5rem; } }
+    @media only screen and (max-width: 600px) {
+      .hero__paragraph {
+        left: 2rem;
+        top: calc(50% - 112px / 2 + 155px); } }
+  .hero__black {
+    height: 80rem;
+    width: 45rem;
+    background: #151515; }
+    @media only screen and (max-width: 1100px) {
+      .hero__black {
+        display: none; } }
+  .hero__arrow, .hero__link {
+    align-items: center;
+    display: flex;
+    height: 7.2rem; }
+  .hero__arrow {
+    background-color: #d5966c;
+    justify-content: center;
+    width: 5.6rem; }
+  .hero__link {
+    background-color: #141414;
+    justify-content: space-between;
+    width: 26rem; }
+  .hero__loc {
+    margin-left: 11%; }
+  .hero__link a {
+    color: white;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3.64px;
+    line-height: 2.4rem;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .hero__link {
+    margin-top: 44rem;
+    margin-left: -6.5rem; }
+    @media only screen and (max-width: 1100px) {
+      .hero__link {
+        margin-left: 1rem; } }
+    @media only screen and (max-width: 800px) {
+      .hero__link {
+        margin-top: 49rem;
+        margin-left: -5.5rem; } }
+    @media only screen and (max-width: 600px) {
+      .hero__link {
+        margin-left: 2rem;
+        margin-top: 39rem; } }
+  .hero__link:hover, .hero__link:hover, .hero__arrow {
+    transition: all 0.9s ease-out; }
+  .hero__link:hover {
+    background-color: #d5966c; }
+  .hero__link:hover .hero__arrow {
+    background-color: #141414; }
+
+.section {
+  margin: 2rem 16rem; }
+  @media only screen and (max-width: 800px) {
+    .section {
+      margin: 0.9rem 4rem; } }
+  .section__first-column {
+    display: flex;
+    justify-content: center;
+    margin: 3rem; }
+    @media only screen and (max-width: 600px) {
+      .section__first-column {
+        margin-bottom: 1.1rem;
+        justify-items: center; } }
+    @media only screen and (max-width: 600px) {
+      .section__first-column {
+        flex-direction: column;
+        margin-left: -1.5rem;
+        justify-items: center; } }
+  .section__second-column {
+    display: flex;
+    justify-content: center; }
+    @media only screen and (max-width: 600px) {
+      .section__second-column {
+        flex-direction: column;
+        margin-left: -1.5rem; } }
+  .section__text-container {
+    margin-right: 12rem; }
+    @media only screen and (max-width: 800px) {
+      .section__text-container {
+        margin-right: 0; } }
+  .section__header {
+    font-family: "Big Shoulders Display";
+    line-height: 1.2;
+    font-size: 6rem;
+    width: 35rem;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    color: black; }
+    @media only screen and (max-width: 800px) {
+      .section__header {
+        width: 22.3rem;
+        height: 13.5rem;
+        font-size: 5rem;
+        margin-top: 2rem;
+        margin-right: 6.8rem;
+        line-height: 1; } }
+  .section__paragraph {
+    margin-top: 1.5rem;
+    width: 27.3rem;
+    font-family: "Outfit";
+    font-weight: 300;
+    font-size: 1.8rem; }
+    @media only screen and (max-width: 800px) {
+      .section__paragraph {
+        width: 22.3rem;
+        height: 14rem;
+        margin-top: 2rem; } }
+
+.text-container-black {
+  width: 44.5rem;
+  height: 37.7rem;
+  background: black;
+  margin-top: 2.5rem;
+  margin-left: 3rem; }
+  @media only screen and (max-width: 800px) {
+    .text-container-black {
+      width: 28rem;
+      height: 39.6rem;
+      margin-top: 0.6rem;
+      margin-left: 1.1rem; } }
+  @media only screen and (max-width: 600px) {
+    .text-container-black {
+      width: 34.3rem;
+      margin-left: 0; } }
+
+.paragraph {
+  font-size: 2.2rem;
+  height: 9.6rem;
+  margin: 2.9rem;
+  color: white; }
+  @media only screen and (max-width: 800px) {
+    .paragraph {
+      width: 20.3rem;
+      height: 11.2rem;
+      font-size: 1.8rem; } }
+
+.black__container-header {
+  font-family: "Big Shoulders Display";
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 1;
+  color: white; }
+  @media only screen and (max-width: 800px) {
+    .black__container-header {
+      font-size: 5rem; } }
+
+.img {
+  margin-left: 3rem; }
+  @media only screen and (max-width: 800px) {
+    .img {
+      margin-left: 1.1rem; } }
+  @media only screen and (max-width: 600px) {
+    .img {
+      margin-left: 0;
+      justify-content: center; } }
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 56px;
+  height: 216px;
+  margin-top: 12rem;
+  background: #151515; }
+  @media only screen and (max-width: 600px) {
+    .footer {
+      flex-direction: column;
+      max-width: 60rem;
+      height: 336px; } }
+  .footer__logo-light {
+    margin-left: 12rem; }
+    @media only screen and (max-width: 800px) {
+      .footer__logo-light {
+        margin-left: 4rem; } }
+  .footer__paragraph {
+    max-width: 430px;
+    margin-top: 0;
+    color: white;
+    font-size: 1.8rem; }
+    @media only screen and (max-width: 800px) {
+      .footer__paragraph {
+        width: 28.1rem;
+        height: 10.4rem;
+        margin-left: 4rem; } }
+  .footer__fb-icon {
+    margin-right: 2rem;
+    cursor: pointer; }
+    @media only screen and (max-width: 800px) {
+      .footer__fb-icon {
+        margin-left: 4rem; } }
+  .footer__fb-icon:hover {
+    background: #d5966c; }
+  .footer__insta-icon {
+    margin-right: 2rem;
+    cursor: pointer; }
+  .footer__insta-icon:hover {
+    background: #d5966c; }
+  .footer__twitter-icon {
+    margin-right: 12rem;
+    cursor: pointer; }
+    @media only screen and (max-width: 800px) {
+      .footer__twitter-icon {
+        margin-right: 4rem; } }
+  .footer__twitter-icon:hover {
+    background: #d5966c; }

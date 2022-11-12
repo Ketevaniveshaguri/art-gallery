@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Art gallery website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <div class="hero__black"></div>
+        <div class="header__container">
+          <h1 class="hero__header">
+            Modern <span class="hero__art"> art gallery </span>
+          </h1>
+          <!-- <h1 class="tablet-header">modern art gallery</h1> -->
+        </div>
+
+        <picture>
+          <source
+            media="(min-width: 1100px)"
+            srcset="assets/desktop/image-hero.jpg"
+          />
+          <source
+            media="(min-width: 599px)"
+            srcset="assets/tablet/image-hero.jpg"
+          />
+          <img src="assets/mobile/image-hero.jpg" alt="image hero" />
+        </picture>
+        <p class="hero__paragraph">
+          The arts in the collection of the Modern Art Gallery all started from
+          a spark of inspiration. Will these pieces inspire you? Visit us and
+          find out.
+        </p>
+        <div class="hero__link">
+          <a class="hero__loc" href="location.html">Our location</a>
+
+          <div class="hero__arrow">
+            <img src="./assets/icon-arrow-right.svg" alt="Right arrow" />
+          </div>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="section__first-column">
+          <div class="section__text-container">
+            <h2 class="section__header">Your Day at the Gallery</h2>
+            <p class="section__paragraph">
+              Wander through our distinct collections and find new insights
+              about our artists. Dive into the details of their creative
+              process.
+            </p>
+          </div>
+          <div class="img-container">
+            <picture>
+              <source
+                media="(min-width: 1050px)"
+                srcset="assets/desktop/image-grid-1.jpg"
+              />
+              <source
+                media="(min-width: 599px)"
+                srcset="assets/tablet/image-grid-1.jpg"
+              />
+              <img src="assets/mobile/image-grid-1.jpg" alt="image hero" />
+            </picture>
+          </div>
+        </div>
+        <div class="section__second-column">
+          <div class="img-container">
+            <picture>
+              <source
+                media="(min-width: 1050px)"
+                srcset="assets/desktop/image-grid-2.jpg"
+              />
+              <source
+                media="(min-width: 599px)"
+                srcset="assets/tablet/image-grid-2.jpg"
+              />
+              <img src="assets/mobile/image-grid-2.jpg" alt="image hero" />
+            </picture>
+          </div>
+          <div>
+            <div class="img-container">
+              <picture>
+                <source
+                  media="(min-width: 800px)"
+                  srcset="assets/desktop/image-grid-3.jpg"
+                  class="img"
+                />
+                <source
+                  media="(min-width: 599px)"
+                  srcset="assets/tablet/image-grid-3.jpg"
+                />
+                <img src="assets/mobile/image-grid-3.jpg" alt="image hero" />
+              </picture>
+            </div>
+            <div class="text-container-black">
+              <h2 class="black__container-header">COME & BE INSPIRED</h2>
+              <p class="paragraph">
+                We're excited to welcome you to our gallery and see how our
+                collections influence you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <img
+          class="footer__logo-light"
+          src="assets/logo-light.svg"
+          alt="modern-art"
+        />
+        <p class="footer__paragraph">
+          The Modern Art Gallery is free to all visitors and open seven days a
+          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+        <div class="footer__social-medias">
+          <img
+            class="footer__fb-icon"
+            src="assets/icon-facebook.svg"
+            alt="facebook-icon"
+          />
+          <img
+            class="footer__insta-icon"
+            src="assets/icon-instagram.svg"
+            alt="instagram-icon"
+          />
+          <img
+            class="footer__twitter-icon"
+            src="assets/icon-twitter.svg"
+            alt="icon-twitter"
+          />
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

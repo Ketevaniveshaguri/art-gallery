@@ -1,0 +1,67 @@
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 56px;
+  height: 216px;
+  margin-top: 12rem;
+
+  background: #151515;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+
+    max-width: 60rem;
+    height: 336px;
+  }
+
+  &__logo-light {
+    margin-left: 12rem;
+
+    @media only screen and (max-width: 800px) {
+      margin-left: 4rem;
+    }
+  }
+
+  &__paragraph {
+    max-width: 430px;
+    margin-top: 0;
+    color: white;
+    font-size: 1.8rem;
+
+    @media only screen and (max-width: 800px) {
+      width: 28.1rem;
+      height: 10.4rem;
+      margin-left: 4rem;
+    }
+  }
+
+  &__fb-icon {
+    margin-right: 2rem;
+    cursor: pointer;
+
+    @media only screen and (max-width: 800px) {
+      margin-left: 4rem;
+    }
+  }
+  &__fb-icon:hover {
+    background: #d5966c;
+  }
+  &__insta-icon {
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  &__insta-icon:hover {
+    background: #d5966c;
+  }
+  &__twitter-icon {
+    margin-right: 12rem;
+    cursor: pointer;
+
+    @media only screen and (max-width: 800px) {
+      margin-right: 4rem;
+    }
+  }
+  &__twitter-icon:hover {
+    background: #d5966c;
+  }
+}
