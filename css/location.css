@@ -16,9 +16,9 @@ header {
 .map {
   width: 100vw;
   height: 550px;
-  background-image: url(assets/mobile/image-map.png);
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
+  background-image: url(/assets/mobile/image-map.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 .mainpage-button {
@@ -127,7 +127,7 @@ footer {
   /* styles for footer */
   .map {
     height: 559.5px;
-    background-image: url(assets/tablet/image-map.png);
+    background-image: url(/assets/tablet/image-map.png);
   }
   .mainpage-button {
     margin-left: 56px;
@@ -160,7 +160,7 @@ footer {
 @media only screen and (min-width: 1440px) {
   .map {
     height: 642px;
-    background-image: url(assets/desktop/image-map.png);
+    background-image: url(/assets/desktop/image-map.png);
   }
   .mainpage-button {
     margin-left: 156px;
