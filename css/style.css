@@ -66,6 +66,11 @@ body {
         white-space: nowrap;
         mix-blend-mode: normal;
         top: calc(50% - 130px / 2 - 140px); } }
+    @media only screen and (max-width: 700px) {
+      .hero__header {
+        font-size: 4.8rem;
+        line-height: 2.3;
+        top: 16rem; } }
     @media only screen and (max-width: 600px) {
       .hero__header {
         left: 2rem;
@@ -97,6 +102,10 @@ body {
         position: absolute;
         top: calc(50% - 112px / 2 + 29px);
         left: 38.5rem; } }
+    @media only screen and (max-width: 700px) {
+      .hero__paragraph {
+        max-width: 24rem;
+        top: 28rem; } }
     @media only screen and (max-width: 600px) {
       .hero__paragraph {
         left: 2rem;
@@ -140,6 +149,9 @@ body {
       .hero__link {
         margin-top: 49rem;
         margin-left: -5.5rem; } }
+    @media only screen and (max-width: 700px) {
+      .hero__link {
+        margin-top: 48rem; } }
     @media only screen and (max-width: 600px) {
       .hero__link {
         margin-left: 2rem;
@@ -175,12 +187,21 @@ body {
     @media only screen and (max-width: 600px) {
       .section__second-column {
         flex-direction: column;
-        margin-left: -1.5rem; } }
+        margin-left: -1.5rem;
+        margin-bottom: 1.6rem; } }
   .section__text-container {
     margin-right: 12rem; }
     @media only screen and (max-width: 800px) {
       .section__text-container {
         margin-right: 0; } }
+    @media only screen and (max-width: 670px) {
+      .section__text-container {
+        font-size: 3rem;
+        margin-right: 12rem;
+        max-width: 13rem; } }
+    @media only screen and (max-width: 600px) {
+      .section__text-container {
+        margin-bottom: 5rem; } }
   .section__header {
     font-family: "Big Shoulders Display";
     line-height: 1.2;
@@ -197,6 +218,9 @@ body {
         margin-top: 2rem;
         margin-right: 6.8rem;
         line-height: 1; } }
+    @media only screen and (max-width: 600px) {
+      .section__header {
+        width: 23.3rem; } }
   .section__paragraph {
     margin-top: 1.5rem;
     width: 27.3rem;
@@ -224,7 +248,8 @@ body {
   @media only screen and (max-width: 600px) {
     .text-container-black {
       width: 34.3rem;
-      margin-left: 0; } }
+      margin-left: 0;
+      margin-bottom: 5rem; } }
 
 .paragraph {
   font-size: 2.2rem;
@@ -242,6 +267,7 @@ body {
   font-size: 6rem;
   font-weight: 900;
   line-height: 1;
+  padding: 2rem;
   color: white; }
   @media only screen and (max-width: 800px) {
     .black__container-header {
@@ -275,6 +301,9 @@ body {
     @media only screen and (max-width: 800px) {
       .footer__logo-light {
         margin-left: 4rem; } }
+    @media only screen and (max-width: 800px) {
+      .footer__logo-light {
+        margin-bottom: 3rem; } }
   .footer__paragraph {
     max-width: 430px;
     margin-top: 0;
@@ -285,6 +314,11 @@ body {
         width: 28.1rem;
         height: 10.4rem;
         margin-left: 4rem; } }
+    @media only screen and (max-width: 600px) {
+      .footer__paragraph {
+        margin-bottom: 5rem; } }
+  .footer__social-medias {
+    margin-bottom: 3rem; }
   .footer__fb-icon {
     margin-right: 2rem;
     cursor: pointer; }
