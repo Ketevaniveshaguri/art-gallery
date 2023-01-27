@@ -27,7 +27,7 @@ body {
   @media only screen and (max-width: 600px) {
     .hero {
       flex-direction: column;
-      margin-bottom:4rem;
+      margin-bottom:9rem;
     } }
   .hero__black {
     height: 80rem;
@@ -76,7 +76,7 @@ body {
     @media only screen and (max-width: 600px) {
       .hero__header {
         left: 2rem;
-        top: 10rem; } }
+        top: 12rem; } }
   .hero__art {
     margin-top: -7rem; }
   .hero__paragraph {
@@ -111,7 +111,7 @@ body {
     @media only screen and (max-width: 600px) {
       .hero__paragraph {
         left: 2rem;
-        top: 20rem; } }
+        top: 17rem; } }
   .hero__black {
     height: 80rem;
     width: 45rem;
