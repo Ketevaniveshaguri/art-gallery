@@ -26,7 +26,9 @@ body {
   display: flex; }
   @media only screen and (max-width: 600px) {
     .hero {
-      flex-direction: column; } }
+      flex-direction: column;
+      margin-bottom:4rem;
+    } }
   .hero__black {
     height: 80rem;
     width: 45rem;
@@ -74,7 +76,7 @@ body {
     @media only screen and (max-width: 600px) {
       .hero__header {
         left: 2rem;
-        top: calc(50% - 110px / 2 + 12px); } }
+        top: 10rem; } }
   .hero__art {
     margin-top: -7rem; }
   .hero__paragraph {
@@ -109,7 +111,7 @@ body {
     @media only screen and (max-width: 600px) {
       .hero__paragraph {
         left: 2rem;
-        top: calc(50% - 112px / 2 + 155px); } }
+        top: 20rem; } }
   .hero__black {
     height: 80rem;
     width: 45rem;
